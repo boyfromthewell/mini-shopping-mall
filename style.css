@@ -1,0 +1,43 @@
+html{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-bar{
+    display: flex;
+}
+.btn{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.imgBtn{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.colorBtn{
+    width: 60px;
+    height: 45px;
+    margin-right: 20px;
+    border-radius: 20%;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.blue{
+    background-color: #3b88c3;
+}
+.yellow{
+    background-color: #fbbe28;
+}
+.pink{
+    background-color: #fd7f84;
+}
+
